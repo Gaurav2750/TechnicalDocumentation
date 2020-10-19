@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="technical.css">
+    <title>Tutorial: Intro to React - React</title>
+</head>
+
+<body>
+    <header id="main-header">
+        <div class="wrapper-header">
+            <div id="logo">
+                <span>React</span>
+            </div>
+            <div id="menu">
+                <nav>
+                    <a href="">Docs</a>
+                    <a href="">Tutorial</a>
+                    <a href="">Blog</a>
+                    <a href="">Community</a>
+                </nav>
+            </div>
+            <div id="search">
+                <input type="text" placeholder="Search" id="search-content">
+            </div>
+        </div>
+    </header>
+
+    <main id="main-doc">
+        <div class="content-main">
+            <section class="main-section" id="Introduction">
+                <h1 id="main-heading">Getting Started</h1>
+                <p id="main-paragraph">This page is an overview of the React documentation and related resources.</p>
+                <p class="second-pargraph"> <b>React</b> is a JavaScript library for building user interfaces.
+                    Learn what React is all about on our homepage or in the tutorial.</p>
+
+                <h1 id="second-heading">Try React</h1>
+                <p class="second-pargraph"> React has been designed from the start for gradual adoption,
+                    and you can use as little or as much React as you need. Whether you want to get a taste of React,
+                    add some interactivity to a simple HTML page, or start a complex React-powered app,
+                    the links in this section will help you get started.
+                </p>
+
+                <h1 id="third-heading">Online Playgrounds</h1>
+                <p class="second-pargraph"> If you prefer to use your own text editor, you can also download this HTML
+                    file, edit it,
+                    and open it from the local filesystem in your browser. It does a slow runtime code transformation,
+                    so we’d only recommend using this for simple demos.
+                </p>
+
+                <h1 id="forth-heading">Learn React</h1>
+                <p class="second-pargraph"> People come to React from different backgrounds and with different learning
+                    styles.
+                    Whether you prefer a more theoretical or a practical approach, we hope you’ll find this section
+                    helpful..</p>
+            </section>
+
+            <section class="main-section" id="Website">
+                <h1 id="main-heading">Add React to a Website</h1>
+                <p id="main-paragraph">Use as little or as much React as you need.</p>
+                <p class="second-pargraph"> React has been designed from the start for gradual adoption, and you can use
+                    as
+                    little or as much React as you need. Perhaps you only want to add some “sprinkles of interactivity”
+                    to
+                    an existing page. React components are a great way to do that.</p>
+
+                <h1 id="second-heading">Add React in One Minute</h1>
+                <p class="second-pargraph">In this section, we will show how to add a React component to an existing
+                    HTML page.
+                    You can follow along with your own website, or create an empty HTML file to practice.
+                    There will be no complicated tools or install requirements — to complete this section,
+                    you only need an internet connection, and a minute of your time.
+                </p>
+
+                <h1 id="third-heading">Add a DOM Container to the HTML</h1>
+                <p class="second-pargraph"> First, open the HTML page you want to edit.
+                    Add an empty <code>&ltdiv&gt</code> tag to mark the spot where you want to display something with
+                    React.
+                </p>
+
+                <h1 id="forth-heading">Create a React Component</h1>
+                <p class="second-pargraph"> Create a file called like_button.js next to your HTML page.
+                    Open this starter code and paste it into the file you created.</p>
+            </section>
+            <section class="main-section" id="React-app">
+                <h1 id="main-heading">Create a New React App</h1>
+                <p id="main-paragraph">Use an integrated toolchain for the best user and developer experience.</p>
+                <p class="second-pargraph"> Create React App is a comfortable environment for learning React,
+                    and is the best way to start building a new single-page application in React.
+                    It sets up your development environment so that you can use the latest JavaScript features,
+                    provides a nice developer experience, and optimizes your app for production.</p>
+
+                <h1 id="second-heading">You Might Not Need a Toolchain</h1>
+                <p class="second-pargraph">If you don’t experience the problems described above or don’t feel
+                    comfortable using JavaScript tools yet, consider adding React as a plain
+                    <code>&ltscript&gt</code> tag on an HTML page, optionally with JSX.
+                    This is also the easiest way to integrate React into an existing website.
+                    You can always add a larger toolchain if you find it helpful!
+                </p>
+
+                <h1 id="third-heading">Create React App</h1>
+                <p class="second-pargraph"> Create React App is a comfortable environment for learning React,
+                    and is the best way to start building a new single-page application in React.
+                    It sets up your development environment so that you can use the latest JavaScript features,
+                    provides a nice developer experience, and optimizes your app for production.
+                </p>
+
+                <h1 id="forth-heading">Creating a Toolchain from Scratch</h1>
+                <p class="second-pargraph"> A JavaScript build toolchain typically consists of:.
+                    A package manager, such as Yarn or npm. It lets you take advantage of a vast ecosystem of
+                    third-party packages, and easily install or update them.
+                    A bundler, such as webpack or Parcel. It lets you write modular code and bundle it together into
+                    small packages to optimize load time.
+                    A compiler such as Babel. It lets you write modern JavaScript code that still works in older
+                    browsers.</p>
+            </section>
+            <section class="main-section" id="CDN-Links">
+                <h1 id="main-heading">CDN Links</h1>
+                <p id="main-paragraph">Both React and ReactDOM are available over a CDN.</p>
+                <p class="second-pargraph"> <code>
+                    &ltscript crossorigin src="https://unpkg.com/react@16/umd/react.development.js"&gt&lt/script&gt
+                    &ltscript crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"&gt&lt/script&gt
+                    </code></p> <br> <br>
+
+                <p class="second-pargraph"> The versions above are only meant for development, and are not suitable for
+                    production.
+                    Minified and optimized production versions of React are available at</p> <br> <br>
+
+                <p class="second-pargraph"> <code>
+                        &ltscript crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"&gt&lt/script&gt
+                        &ltscript crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"&gt&lt/script&gt
+                        </code></p>
+
+                <h1 id="second-heading">You Might Not Need a Toolchain</h1>
+                <p class="second-pargraph">If you don’t experience the problems described above or don’t feel
+                    comfortable using JavaScript tools yet, consider adding React as a plain
+                    <code>&ltscript&gt</code> tag on an HTML page, optionally with JSX.
+                    This is also the easiest way to integrate React into an existing website.
+                    You can always add a larger toolchain if you find it helpful!
+                </p>
+
+                <h1 id="third-heading">Create React App</h1>
+                <p class="second-pargraph"> Create React App is a comfortable environment for learning React,
+                    and is the best way to start building a new single-page application in React.
+                    It sets up your development environment so that you can use the latest JavaScript features,
+                    provides a nice developer experience, and optimizes your app for production.
+                </p>
+
+                <h1 id="forth-heading">Creating a Toolchain from Scratch</h1>
+                <p class="second-pargraph"> A JavaScript build toolchain typically consists of:.
+                    A package manager, such as Yarn or npm. It lets you take advantage of a vast ecosystem of
+                    third-party packages, and easily install or update them.
+                    A bundler, such as webpack or Parcel. It lets you write modular code and bundle it together into
+                    small packages to optimize load time.
+                    A compiler such as Babel. It lets you write modern JavaScript code that still works in older
+                    browsers.</p>
+            </section>
+            <section class="main-section" id="Release Channels">
+                <h1 id="main-heading">Release Channels</h1>
+                <p id="main-paragraph">Use an integrated toolchain for the best user and developer experience.</p>
+                <p class="second-pargraph"> Create React App is a comfortable environment for learning React,
+                    and is the best way to start building a new single-page application in React.
+                    It sets up your development environment so that you can use the latest JavaScript features,
+                    provides a nice developer experience, and optimizes your app for production.</p>
+
+                <h1 id="second-heading">You Might Not Need a Toolchain</h1>
+                <p class="second-pargraph">If you don’t experience the problems described above or don’t feel
+                    comfortable using JavaScript tools yet, consider adding React as a plain
+                    <code>&ltscript&gt</code> tag on an HTML page, optionally with JSX.
+                    This is also the easiest way to integrate React into an existing website.
+                    You can always add a larger toolchain if you find it helpful!
+                </p>
+
+                <h1 id="third-heading">Create React App</h1>
+                <p class="second-pargraph"> Create React App is a comfortable environment for learning React,
+                    and is the best way to start building a new single-page application in React.
+                    It sets up your development environment so that you can use the latest JavaScript features,
+                    provides a nice developer experience, and optimizes your app for production.
+                </p>
+
+                <h1 id="forth-heading">Creating a Toolchain from Scratch</h1>
+                <p class="second-pargraph"> A JavaScript build toolchain typically consists of:.
+                    A package manager, such as Yarn or npm. It lets you take advantage of a vast ecosystem of
+                    third-party packages, and easily install or update them.
+                    A bundler, such as webpack or Parcel. It lets you write modular code and bundle it together into
+                    small packages to optimize load time.
+                    A compiler such as Babel. It lets you write modern JavaScript code that still works in older
+                    browsers.</p>
+            </section>
+        </div>
+        <div class="menu">
+            <nav id="navbar">
+                <header>
+                    <h1 class="heading">React Documentation</h1>
+                </header>
+                <div class="menu-list">
+                    <a href="#Introduction">Introduction</a>
+                    <a href="#Website">Add React to a Website</a>
+                    <a href="#React-app">Create a New React App</a>
+                    <a href="#CDN-Links">CDN Links</a>
+                    <a href="#Release Channels">Release Channels</a>
+                    <a href="">Hello World</a>
+                    <a href="">Introducing JSX</a>
+                    <a href="">Rendering Elements</a>
+
+                </div>
+            </nav>
+        </div>
+    </main>
+</body>
+
+</html>
